@@ -4,7 +4,7 @@ export const bot = new Bot(
   "1118961443:AAEYU3pDOXFzSX5IulkYsRKjaLG_zHPCOxQ", {
     client: {
       // We accept the drawback of webhook replies for typing status.
-      canUseWebhookReply: true,
+      canUseWebhookReply: (method) => true,
     }
   }
 );
