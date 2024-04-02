@@ -11,7 +11,7 @@ export const bot = new Bot(
 
 
 bot.command("start", async (ctx) => {
-  const response = await ctx.reply("Bot ishlavotti."));
+  const response = await ctx.reply("Bot ishlavotti.");
   console.log(response);
 });
 
